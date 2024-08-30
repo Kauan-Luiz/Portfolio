@@ -1,0 +1,71 @@
+header {
+    background-color: #140b29;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-header {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.li-header {
+    margin-right: 45px;
+    background: #8b7bf3;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+}
+.li-header:hover {
+    background: #8b7bf3;
+    transform: translateY(-5px);
+}
+.li-header::before {
+    content: '•';
+    color: #140b29; /* Cor do marcador */
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+.btn-header {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #25D366, #128C7E); /* Gradiente verde do WhatsApp */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    cursor: pointer;
+}
+.btn-header:hover {
+    background: linear-gradient(45deg, #128C7E, #25D366); /* Inverte as cores no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+.btn-header:active {
+    background: linear-gradient(45deg, #25D366, #128C7E);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);}
+
+.btn-header i {
+    margin-left: 5px;
+}
+

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400; 
+    font-size: 1em;
+    background-image: url(https://png.pngtree.com/back_origin_pic/04/19/45/154688c8443baff9e1890f945882a2be.jpg);
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat;
+}
+
+a{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+.projects a:hover {
+    color: #0000EE;
+
+}
+
