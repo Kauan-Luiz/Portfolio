@@ -14,6 +14,15 @@
 }
 
 
+
+.projects{
+  background-image: url(https://png.pngtree.com/back_origin_pic/04/19/45/154688c8443baff9e1890f945882a2be.jpg);
+  background-size: cover; /* A imagem cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: repeat;
+
+}
+
 .zoom-imagem {
   display: block;
   transition: transform 0.4s ease; /* Transição suave para o efeito de zoom */
@@ -33,7 +42,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  color: black;
+  color: #fff;
   font-size: 26pt;
 }
 
@@ -53,7 +62,7 @@
 }
 
 .project-2 {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 100%;
   height: 500px;
   background-color: #140b29;
@@ -65,7 +74,7 @@
 }
 
 .project-3 {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 100%;
   height: 500px;
   background-color: #140b29;
