@@ -16,7 +16,9 @@ body header {
     padding: 0;
     
 }
-
+.li-header a {
+    color: #fff;
+}
 .li-header {
     padding: 20px;
     margin-top: 10PX;
