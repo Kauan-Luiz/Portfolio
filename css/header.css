@@ -69,3 +69,12 @@ header {
     margin-left: 5px;
 }
 
+@media (max-width: 599px) {
+    header {width: 100%;
+        height: 33px;
+        
+    }
+    .btn-header {
+        font-size: 8pt;
+    }
+}

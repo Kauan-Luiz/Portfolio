@@ -17,20 +17,23 @@
 
 .projects{
   background-image: url(https://png.pngtree.com/back_origin_pic/04/19/45/154688c8443baff9e1890f945882a2be.jpg);
-  background-size: cover; /* A imagem cobre toda a área */
-  background-position: center; /* Centraliza a imagem */
+  background-size: cover; 
+  background-position: center; 
   background-repeat: repeat;
 
 }
 
+.skills {
+  width: 100%;
+  height: 400px;
+}
 .zoom-imagem {
   display: block;
-  transition: transform 0.4s ease; /* Transição suave para o efeito de zoom */
+  transition: transform 0.4s ease; 
 }
 
-.imagem-container:hover .zoom-imagem {
-  
-  transform: scale(1.2); /* Ajuste o valor conforme necessário para o zoom desejado */
+.imagem-container:hover .zoom-imagem {  
+  transform: scale(1.2); 
 }
 
 .imagens:hover img {
@@ -41,14 +44,12 @@
 .text-skills {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   color: #fff;
   font-size: 26pt;
 }
 
 .link-login {
   margin-top:  60px;
-
 }
 
 .project-1 {
@@ -70,7 +71,6 @@
   justify-content: space-evenly;
   align-items: center;
   color: #fff;
-
 }
 
 .project-3 {
@@ -100,15 +100,14 @@
   background-color: #fff;
 
 }
-
-.img-work {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  }
-
+.text-in-work{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40pt;
+  margin-top: 150px;
+}
 .link-fast{
 
   display: grid;
@@ -138,4 +137,99 @@
 
 .li-projects i {
   margin-right: 5px;
+}
+
+.container-link-fast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 599px) {
+
+  .skills{
+    width: 100%;
+    height: 580px;
+  }
+
+  .text-skills {
+    font-size: 13pt;
+    margin-bottom: 0;
+
+  }
+  .imagens {
+    display: grid;
+    margin-top: 15px;
+    
+  }
+  .imagem-container img {
+    width: 100px;
+    height: 100%;
+
+  }
+
+  
+  .zoom-imagem {
+    
+    transition: transform 0 ease; 
+  }
+  
+  .imagem-container:hover .zoom-imagem {  
+    transform: none; 
+  }
+  .imagens:hover img {
+    width: 100px;
+    height: 100%;  
+  }
+  .project-1{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 500px;
+    font-size: 8pt;
+  }
+
+  video {
+    width: 350px;
+  }
+  .project-2{
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    font-size: 8pt;
+  }
+  .project-3{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 500px;
+    font-size: 8pt;
+  }
+
+  .in-work{
+    width: 350px;
+    height: 200px;
+  }
+  .allprojects {
+    flex-direction: column;
+    font-size: 8pt;
+    width: 100%;
+    height: 150px;
+  }
+
+  .text-in-work {
+    font-size: 18pt;
+    margin-top: 80px;
+  }
+
+  .link-login{
+    margin-top: 40px;
+  }
+  .link-fast {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
 }
